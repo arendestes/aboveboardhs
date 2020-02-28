@@ -3428,8 +3428,11 @@ body.single #wrapper {
 }
 
 #intro header img {
-    width: 20%;
-    margin: auto;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 @media screen and (max-width: 1280px) {
@@ -3462,7 +3465,9 @@ body.single #wrapper {
         font-size: 1.25em;
     }
     #intro header> :last-child {
-        margin-bottom: 0;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
