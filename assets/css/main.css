@@ -2529,6 +2529,12 @@ ul.icons li>* .label {
     min-height: 500px;
 }
 
+@media screen and (max-width: 480px) {
+    .carousel .carousel-item {
+        height: 200px;
+    }
+}
+
 
 /*carousel*/
 
@@ -2728,7 +2734,7 @@ ul.posts article header> :last-child {
     display: flex;
     border-bottom: solid 1px rgba(160, 160, 160, 0.3);
     left: -3em;
-    margin: -3em 0 3em 0;
+    margin: 0 0 3em 0;
     position: relative;
     width: calc(100% + 6em);
 }
@@ -2740,7 +2746,11 @@ ul.posts article header> :last-child {
     -ms-flex-positive: 1;
     flex-grow: 1;
     -ms-flex: 1;
-    padding: 3.75em 3em 3.3em 3em;
+    padding: 0 0 3.3em 0;
+}
+
+.post>header .title-padding {
+    padding-top: 5em;
 }
 
 .post>header .title h2 {
@@ -2752,8 +2762,8 @@ ul.posts article header> :last-child {
 
 .post>header .title> :last-child {
     margin-bottom: 0;
-    margin-top: 3em;
-    text-align: justify;
+    margin-top: 0;
+    text-align: center;
 }
 
 .post>header .meta {
