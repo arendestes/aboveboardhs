@@ -2878,7 +2878,7 @@ ul.posts article header> :last-child {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         flex-direction: column;
-        padding: 3.75em 3em 1.25em 3em;
+        padding: 1.25em 3em 1.25em 3em;
         border-left: 0;
     }
     .post>header .title {
@@ -2981,7 +2981,6 @@ ul.posts article header> :last-child {
     }
     .post>.image.featured {
         margin-left: -1.5em;
-        margin-top: calc(-1.5em - 1px);
         width: calc(100% + 3em);
     }
     .post>footer {
