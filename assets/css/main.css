@@ -2764,6 +2764,7 @@ ul.posts article header> :last-child {
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
+    padding: .5em;
 }
 
 .post>header .meta {
@@ -3036,6 +3037,43 @@ header p {
     text-transform: uppercase;
     margin-top: 2em;
     margin-bottom: 2em;
+}
+
+.pricing-container {
+    width: 90%;
+    margin: auto;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.pricing1 {
+    flex-basis: 60%;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pricing2 {
+    flex-basis: 35%;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.pricing-text {
+    margin-top: 2.5em;
 }
 
 
