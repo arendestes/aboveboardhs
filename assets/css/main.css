@@ -1,4 +1,4 @@
-@import url(c:\Users\arend\aboveboardhs\assets\css\fontawesome-all.min.css);
+@import "fontawesome-all.min.css";
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 
 /*
@@ -2590,7 +2590,7 @@ ul.posts article header {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    -ms-flex: 1;
+    flex: 1;
 }
 
 ul.posts article header h3 {
@@ -2745,7 +2745,7 @@ ul.posts article header> :last-child {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    -ms-flex: 1;
+    flex: 1;
     padding: 0 0 3.3em 0;
 }
 
@@ -2883,7 +2883,7 @@ ul.posts article header> :last-child {
         border-left: 0;
     }
     .post>header .title {
-        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
         margin: 0 0 2em 0;
         padding: 0;
         text-align: center;
@@ -3404,8 +3404,22 @@ body.single #wrapper {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    -ms-flex: 1;
+    flex: 1;
     width: 100%;
+}
+
+#main #photo-james {
+    width: 111px;
+    height: 200px;
+    margin-bottom: 1em
+}
+
+#main #like-fb {
+    width: 20vw;
+    min-width: 250px;
+    display: block;
+    margin: auto;
+    padding: 1em;
 }
 
 
@@ -3427,6 +3441,18 @@ body.single #wrapper {
     border-top: 0;
     margin-top: 0;
     padding-top: 0;
+}
+
+#sidebar #best-handyman-a {
+    display: inline-block;
+    border: 0;
+}
+
+#sidebar #best-handyman-img {
+    width: 125px;
+    height: 125px;
+    margin-right: 1em;
+    display: inline-block;
 }
 
 @media screen and (max-width: 1280px) {
@@ -3655,6 +3681,3 @@ body.is-menu-visible #menu {
         padding: 1.5em;
     }
 }
-
-
-/*# sourceMappingURL=main.css.map */
