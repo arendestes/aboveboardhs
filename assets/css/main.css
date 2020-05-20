@@ -3517,6 +3517,7 @@ body.single #wrapper {
     font-size: 2em;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 #intro header a {
