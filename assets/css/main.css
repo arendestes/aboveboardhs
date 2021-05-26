@@ -3076,6 +3076,56 @@ header p {
     margin-top: 2.5em;
 }
 
+@keyframes example {
+    0% {
+        transform: rotate(0deg);
+    }
+    1% {
+        transform: rotate(1deg);
+    }
+    2% {
+        transform: rotate(-1deg);
+    }
+    3% {
+        transform: rotate(1deg);
+    }
+    4% {
+        transform: rotate(0deg);
+    }
+}
+
+#ten-year {
+    margin: auto;
+    padding: 0px;
+    border: none;
+    width: 60%;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+#ten-year:hover {
+    transform: scale(1.05, 1.05);
+}
+
+#ten-year-deal {
+    font-weight: 900;
+    font-size: 1.25em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#ten-year-deal>h2 {
+    text-shadow: 2px 2px 2px #a18e70;
+}
+
+#ten-year-deal>p {
+    font-weight: 300;
+    font-size: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
 
 /* Table */
 

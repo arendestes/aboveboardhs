@@ -92,4 +92,5 @@
 				$intro.prependTo($sidebar);
 			});
 
+		
 })(jQuery);
